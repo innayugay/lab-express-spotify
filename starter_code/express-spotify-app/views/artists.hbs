@@ -1,0 +1,11 @@
+blabalbal
+
+
+
+{{#each searchResult}}
+<p>{{this.name}}</p>
+
+{{#if this.images.0.url}}
+<img src="{{this.images.0.url}}" alt="">
+{{/if}}
+{{/each}}
